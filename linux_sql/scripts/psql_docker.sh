@@ -9,6 +9,7 @@ db_password=$3
 sudo systemctl status docker || sudo systemctl start docker
 
 docker container inspect jrvs-psql
+container_status=$?
 
 # container_status now holds an exit code (0 for if the instance exists, 1 otherwise)
 
@@ -58,7 +59,7 @@ case $cmd in
 # now we handle all other cases, represented by a star
 	*)
 	echo 'Illegal command'
-	echo 'Commands: start | stop | create'
+	echo 'Commands: start|stop|create'
 	exit 1
 	;;
 
