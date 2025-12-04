@@ -24,7 +24,7 @@ crontab -e
 # Implementation
 
 ## Architecture
-![architecture_diagram](assets/Linux Architecture.drawio.png)
+![architecture_diagram](assets/LinuxArchitecture.drawio.png)
 
 ## Scripts
 Below is a description and sample usage of each of the scripts relevant to this project:
