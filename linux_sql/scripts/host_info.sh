@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # assign command line positional arguments
 psql_host=$1
