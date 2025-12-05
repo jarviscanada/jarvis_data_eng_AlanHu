@@ -25,6 +25,8 @@ crontab -e
 
 ## Architecture
 ![architecture_diagram](assets/LinuxArchitecture.drawio.png)
+- PostgreSQL database contains host hardware info and resource usage data
+- Two scripts, `host_info.sh` and `host_usage.sh`, are used to gather the data and to write to the database. The `host_info` script need only be run once, since host info is unlikely to change. On the other hand, `host_usage.sh` is to be automated with cron to run every minute, in order to obtain vast amounts of data that will lead to the most accurate and insightful analysis
 
 ## Scripts
 Below is a description and sample usage of each of the scripts relevant to this project:
