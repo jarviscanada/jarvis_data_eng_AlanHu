@@ -1,8 +1,63 @@
-# Jarvis Data Engineering Training
-1. [Linux Cluster Monitoring Agent (Linux and SQL)](./linux_sql) In-progress
-2. [Core Java Apps](./core_java) In-progress
-3. [Python Data Analytics](./python_data_analytics) In-progress
-4. [Spring Boot Trading REST API](./springboot) In-progress
-5. [Javascript Front End](./javascript) In-progress
-6. [Cloud/DevOps](./cloud_devops) In-progress
+# Alan Hu . Jarvis Consulting
 
+Recent McGill University graduate in Statistics and Computer Science with a strong foundation in data engineering, analytics, and software development. Certified in IBM Data Engineering and Snowflake Data Engineering, with hands-on exposure to designing and supporting scalable, end-to-end data pipelines using modern cloud and data stack technologies. Highly motivated to continuously learn and adopt emerging tools that improve data reliability, performance, and business impact. Known for strong communication skills and a collaborative mindset, with a genuine enthusiasm for working directly with stakeholders to translate complex client requirements into practical, high-quality technical solutions. Well-suited for technical consulting environments that demand both engineering rigor and client-facing excellence.
+
+## Skills
+
+**Proficient:** Linux/Bash, RDBMS/SQL, Agile/Scrum, Git, Python (Pandas, Sci-kit), ETL Pipelines
+
+**Competent:** Java, Databricks, Maven, Docker, Apache Spark/PySpark, Airflow Orchestration
+
+**Familiar:** NoSQL/MongoDB, GCP/BigQuery, AWS, Snowflake, Power BI
+
+## Jarvis Projects
+
+Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AlanHu](https://github.com/jarviscanada/jarvis_data_eng_AlanHu)
+
+
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlanHu/tree/master/linux_sql)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+
+**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlanHu/tree/master/core_java)]:
+      
+  - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
+  - JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
+  - Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
+
+**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlanHu/tree/master/springboot)]: Not Started
+
+**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlanHu/tree/master/python_data_anlytics)]: Not Started
+
+**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlanHu/tree/master/hadoop)]: Not Started
+
+**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlanHu/tree/master/spark)]: Not Started
+
+**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlanHu/tree/master/cloud_devops)]: Not Started
+
+
+## Highlighted Projects
+**Web app for resturant** [[GitHub](https://github.com/jarviscanada/jarvis_profile_builder)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+
+**Machine Learning**: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+
+
+## Professional Experiences
+
+**Software Developer, Jarvis (2020-present)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+
+**Tutor, XYZ Company (2019)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+
+
+## Education
+**McGill University (Sep 2021 - Apr 2025)**, Bachelor of Science, Statistics and Computer Science
+- Scholarship
+- Dean's List (2015, 2016): Ut enim ad minim veniam
+- GPA: 3.8/4.0
+
+
+## Miscellaneous
+- IBM Data Engineering (October 2025)
+- Data Engineering with Snowflake (October 2025)
+- Winner
+- Basketball player
+- Competitive gaming
+- Volunteer, ABC Food bank: Ut enim ad minim veniam
