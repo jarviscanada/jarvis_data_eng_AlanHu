@@ -3,14 +3,14 @@ package ca.jrvs.apps.grep;
 // import packages
 import java.io.File;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
 
 public class JavaGrepLambdaImp extends JavaGrepImp {
 
@@ -28,7 +28,7 @@ public class JavaGrepLambdaImp extends JavaGrepImp {
     try {
       javaGrepLambdaImp.process();
     } catch (IOException e) {
-      e.printStackTrace();
+      javaGrepLambdaImp.logger.error("Error, unable to complete process", e);
     }
   }
 
