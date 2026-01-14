@@ -41,7 +41,7 @@ public class JavaGrepLambdaImp extends JavaGrepImp {
 
     try {
       return Files.lines(inputFile.toPath())
-          .toList();
+          .collect(Collectors.toList());
     } catch (IOException e) {
       throw new RuntimeException("Issue when reading file: ", e);
     }
