@@ -5,7 +5,7 @@ This app provides an implementation of the `grep` linux command, implemented usi
 To use the app, head over to Docker Hub and pull the image, then run the app by providing the necessary parameters (pattern to search for, directory that contains files to search, output location):
 <br>
 ```shell
-  docker pull alanhu/grep
+docker pull alanhu/grep
 docker run --rm \
   -v $(pwd)/data:/data \
   -v $(pwd)/log:/log \
@@ -34,12 +34,12 @@ section, a possible next step would be to incorporate JUnit testing, making the 
 # Deployment
 To make the app distributable, it was packaged using Maven and pushed as an image to the Docker Hub Registry. This way, people who are interested in using the app can do so regardless of their machine specifications, as long as they have Docker installed locally:
 ```shell
-  cd core_java/grep
+cd core_java/grep
 docker_user=your_docker_id
 docker login -u ${docker_user} --password-stdin 
 
 cat > Dockerfile << EOF
-FROM openjdk:8-alpine
+FROM eclipse-temurin:8-jre-alpine
 COPY target/grep*.jar /usr/local/app/grep/lib/grep.jar
 ENTRYPOINT ["java","-jar","/usr/local/app/grep/lib/grep.jar"]
 EOF
@@ -52,6 +52,7 @@ docker run --rm \
 ${docker_user}/grep .*Romeo.*Juliet.* /data /log/grep.out
 docker push ${docker_user}/grep
 ```
+_Note: We have chosen to pull the Eclipse Temurin image, as the OpenJDK8 version is deprecated and no longer supported_
 
 # Improvement
 1. Accept an arbitrary number of regex patterns to search for. This would allow the user to avoid having to run the app multiple times if they had multiple patterns. Each pattern would have its own output file, named accordingly.
