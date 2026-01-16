@@ -23,6 +23,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AlanHu](ht
   - JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
   - Grep App: Built a Java-based grep application to recursively scan large directory structures, apply regex-based filtering, and persist matched results to disk with efficient I/O handling. Implemented modular, interface-driven design with robust exception handling, UTF-8 encoding, and stream-based file traversal using Java NIO. Managed dependencies and project lifecycle using Maven, and integrated structured logging with SLF4J and Log4j for observability.
 
+**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlanHu/tree/master/python_data_analytics)]: Spearheaded a Python-based data analysis PoC for a retail gift shop to diagnose stagnant revenue performance. Used Pandas, NumPy, Jupyter Notebook, and SQL to perform exploratory analysis, customer segmentation, and trend analysis, delivering targeted recommendations aligned with the shop's customer base to drive higher engagement and incremental sales.
+
 
 ## Highlighted Projects
 **E-commerce Data Platform Architecture** [[GitHub](https://github.com/ayewhosthat/IBM-Data-Engineering-Capstone)]: Developed a hybrid on-premise/cloud data platform for an e-commerce company, integrating MySQL for OLTP and MongoDB for NoSQL storage. Built automated ETL pipelines using Python and Apache Airflow to load data into a PostgreSQL staging warehouse and Hadoop for large-scale analytics. Applied PySpark and SparkML to support big data processing and sales forecasting within the analytics pipeline. Enabled business intelligence reporting and KPI dashboards through IBM Cognos Analytics to support data-driven decision-making.
@@ -32,22 +34,18 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AlanHu](ht
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2020-present)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
-
-**Tutor, XYZ Company (2019)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Software Developer/Data Engineer, Jarvis (Nov 2025 - Present)**: Engineered backend services and data pipelines as part of Jarvis' software development and data engineering initiatives, working extensively in Linux environments with Java and Python. Implemented Java-based applications using clean architecture principles, interfaces, and unit testing, and automated system data collection and analysis through Bash scripting and PostgreSQL. Designed and executed Python-based analytics workflows using Pandas and NumPy to support business and operational insights. Deployed and managed applications using Docker, version-controlled code with Git, and produced clear technical documentation to support maintainability and knowledge transfer.
 
 
 ## Education
 **McGill University (Sep 2021 - Apr 2025)**, Bachelor of Science, Statistics and Computer Science
-- Scholarship
-- Dean's List (2015, 2016): Ut enim ad minim veniam
-- GPA: 3.8/4.0
 
 
 ## Miscellaneous
-- IBM Data Engineering (October 2025)
-- Data Engineering with Snowflake (October 2025)
-- Winner
-- Basketball player
-- Competitive gaming
-- Volunteer, ABC Food bank: Ut enim ad minim veniam
+- Google Advanced Data Analytics Certificate (July 2025)
+- Microsoft Power BI Data Analyst Specialization (August 2025)
+- Google Business Intelligence (August 2025)
+- IBM Data Engineering Certificate (October 2025)
+- Data Engineering with Snowflake Certificate (October 2025)
+- Experience with tutoring and swim instructing
+- Passion for video editing
