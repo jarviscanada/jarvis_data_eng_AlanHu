@@ -1,0 +1,99 @@
+{
+  "education": [
+    {
+      "awards_achievements": null,
+      "degree": "Bachelor of Science",
+      "department": "Statistics and Computer Science",
+      "duration": "Sep 2021 - Apr 2025",
+      "school_name": "McGill University"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_AlanHu",
+  "highlighted_projects": [
+    {
+      "description": "Developed a hybrid on-premise/cloud data platform for an e-commerce company, integrating MySQL for OLTP and MongoDB for NoSQL storage. Built automated ETL pipelines using Python and Apache Airflow to load data into a PostgreSQL staging warehouse and Hadoop for large-scale analytics. Applied PySpark and SparkML to support big data processing and sales forecasting within the analytics pipeline. Enabled business intelligence reporting and KPI dashboards through IBM Cognos Analytics to support data-driven decision-making.",
+      "git_url": "https://github.com/ayewhosthat/IBM-Data-Engineering-Capstone",
+      "name": "E-commerce Data Platform Architecture"
+    },
+    {
+      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "git_url": null,
+      "name": "Machine Learning"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Automated Linux cluster analysis (LCA) and node orchestration using Bash scripting and PostgreSQL to centralize and analyze cluster resource metrics. Containerized data collection and reporting workflows with Docker and managed version control using Git to ensure reproducibility and collaborative development. Enabled scalable SQL-based reporting on node usage trends to support data-driven capacity planning and resource allocation.",
+      "git_url": "/linux_sql",
+      "name": "Cluster Monitor"
+    },
+    {
+      "description": [
+        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
+        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
+        "Grep App: Built a Java-based grep application to recursively scan large directory structures, apply regex-based filtering, and persist matched results to disk with efficient I/O handling. Implemented modular, interface-driven design with robust exception handling, UTF-8 encoding, and stream-based file traversal using Java NIO. Managed dependencies and project lifecycle using Maven, and integrated structured logging with SLF4J and Log4j for observability."
+      ],
+      "git_url": "/core_java",
+      "name": "Core Java Apps"
+    },
+    {
+      "description": "Spearheaded a Python-based data analysis PoC for a retail gift shop to diagnose stagnant revenue performance. Used Pandas, NumPy, Jupyter Notebook, and SQL to perform exploratory analysis, customer segmentation, and trend analysis, delivering targeted recommendations aligned with the shop's customer base to drive higher engagement and incremental sales.",
+      "git_url": "/python_data_analytics",
+      "name": "Python Data Analytics"
+    }
+  ],
+  "name": "Alan Hu",
+  "others": [
+    {
+      "bullets": [
+        "Google Advanced Data Analytics Certificate (July 2025)",
+        "Microsoft Power BI Data Analyst Specialization (August 2025)",
+        "Google Business Intelligence (August 2025)",
+        "IBM Data Engineering Certificate (October 2025)",
+        "Data Engineering with Snowflake Certificate (October 2025)"
+      ],
+      "title": "Certificates"
+    },
+    {
+      "bullets": [
+        "Experience with tutoring and swim instructing",
+        "Passion for video editing"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Engineered backend services and data pipelines as part of Jarvis' software development and data engineering initiatives, working extensively in Linux environments with Java and Python. Implemented Java-based applications using clean architecture principles, interfaces, and unit testing, and automated system data collection and analysis through Bash scripting and PostgreSQL. Designed and executed Python-based analytics workflows using Pandas and NumPy to support business and operational insights. Deployed and managed applications using Docker, version-controlled code with Git, and produced clear technical documentation to support maintainability and knowledge transfer.",
+      "duration": "Nov 2025 - Present",
+      "title": "Software Developer/Data Engineer"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "Java",
+      "Databricks",
+      "Maven",
+      "Docker",
+      "Apache Spark/PySpark",
+      "Apache Airflow"
+    ],
+    "familiar": [
+      "NoSQL/MongoDB",
+      "GCP/BigQuery",
+      "AWS",
+      "Snowflake",
+      "Power BI"
+    ],
+    "proficient": [
+      "Linux/Bash",
+      "RDBMS/SQL",
+      "Agile/Scrum",
+      "Git",
+      "Python (Pandas, Sci-kit)",
+      "ETL Pipelines"
+    ]
+  },
+  "summary": "Recent McGill University graduate in Statistics and Computer Science with a strong foundation in data engineering, analytics, and software development. Certified in IBM Data Engineering and Snowflake Data Engineering, with hands-on exposure to designing and supporting scalable, end-to-end data pipelines using modern cloud and data stack technologies. Highly motivated to continuously learn and adopt emerging tools that improve data reliability, performance, and business impact. Known for strong communication skills and a collaborative mindset, with a genuine enthusiasm for working directly with stakeholders to translate complex client requirements into practical, high-quality technical solutions. Well-suited for technical consulting environments that demand both engineering rigor and client-facing excellence."
+}
