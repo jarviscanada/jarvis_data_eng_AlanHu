@@ -18,18 +18,18 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AlanHu](ht
 **Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlanHu/tree/master/linux_sql)]: Automated Linux cluster analysis (LCA) and node orchestration using Bash scripting and PostgreSQL to centralize and analyze cluster resource metrics. Containerized data collection and reporting workflows with Docker and managed version control using Git to ensure reproducibility and collaborative development. Enabled scalable SQL-based reporting on node usage trends to support data-driven capacity planning and resource allocation.
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlanHu/tree/master/core_java)]:
-      
-  - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - Grep App: Built a Java-based grep application to recursively scan large directory structures, apply regex-based filtering, and persist matched results to disk with efficient I/O handling. Implemented modular, interface-driven design with robust exception handling, UTF-8 encoding, and stream-based file traversal using Java NIO. Managed dependencies and project lifecycle using Maven, and integrated structured logging with SLF4J and Log4j for observability.
 
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlanHu/tree/master/python_data_analytics)]: Spearheaded a Python-based data analysis PoC for a retail gift shop to diagnose stagnant revenue performance. Used Pandas, NumPy, Jupyter Notebook, and SQL to perform exploratory analysis, customer segmentation, and trend analysis, delivering targeted recommendations aligned with the shop's customer base to drive higher engagement and incremental sales.
+  - Grep App: Built a Java-based grep application to recursively scan large directory structures, apply regex-based filtering, and persist matched results to disk with efficient I/O handling. Implemented modular, interface-driven design with robust exception handling, UTF-8 encoding, and stream-based file traversal using Java NIO. Managed dependencies and project lifecycle using Maven, and integrated structured logging with SLF4J and Log4j for observability.
+  - Twitter App: (Placeholder to have profile_app.sh run properly)
+  - JDBC App: (Placeholder to have profile_app.sh run properly)
+
+  **Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlanHu/tree/master/python_data_analytics)]: Spearheaded a Python-based data analysis PoC for a retail gift shop to diagnose stagnant revenue performance. Used Pandas, NumPy, Jupyter Notebook, and SQL to perform exploratory analysis, customer segmentation, and trend analysis, delivering targeted recommendations aligned with the shop's customer base to drive higher engagement and incremental sales.
 
 
 ## Highlighted Projects
 **E-commerce Data Platform Architecture** [[GitHub](https://github.com/ayewhosthat/IBM-Data-Engineering-Capstone)]: Developed a hybrid on-premise/cloud data platform for an e-commerce company, integrating MySQL for OLTP and MongoDB for NoSQL storage. Built automated ETL pipelines using Python and Apache Airflow to load data into a PostgreSQL staging warehouse and Hadoop for large-scale analytics. Applied PySpark and SparkML to support big data processing and sales forecasting within the analytics pipeline. Enabled business intelligence reporting and KPI dashboards through IBM Cognos Analytics to support data-driven decision-making.
 
-**Machine Learning**: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Urban Mobility Analytics** [[GitHub](https://github.com/ayewhosthat/Toronto-City-Bike-Automated-Pipeline)]: Orchestrated an end-to-end urban mobility data pipeline in Azure Databricks, ingesting CityBikes API JSON data into bronze, silver, and gold Delta tables using SQL, PySpark, and streaming tables. Developed interactive Streamlit dashboards with Altair and Plotly to analyze station activity, hourly utilization, and cumulative trends. Automated daily PDF report generation and email distribution, optimizing Spark and Pandas transformations to support scalable, production-ready analytics and timely stakeholder insights.
 
 
 ## Professional Experiences
