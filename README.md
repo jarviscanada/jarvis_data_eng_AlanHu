@@ -23,7 +23,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AlanHu](ht
   - Twitter App: (Placeholder to have profile_app.sh run properly)
   - JDBC App: (Placeholder to have profile_app.sh run properly)
 
-  **Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlanHu/tree/master/python_data_analytics)]: Spearheaded a Python-based data analysis PoC for a retail gift shop to diagnose stagnant revenue performance. Used Pandas, NumPy, Jupyter Notebook, and SQL to perform exploratory analysis, customer segmentation, and trend analysis, delivering targeted recommendations aligned with the shop's customer base to drive higher engagement and incremental sales.
+**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlanHu/tree/master/python_data_analytics)]: Spearheaded a Python-based data analysis PoC for a retail gift shop to diagnose stagnant revenue performance. Used Pandas, NumPy, Jupyter Notebook, and SQL to perform exploratory analysis, feature engineering, customer segmentation, data visualization and trend analysis, delivering targeted recommendations aligned with the shop's customer base to drive higher engagement and incremental sales.
 
 
 ## Highlighted Projects
