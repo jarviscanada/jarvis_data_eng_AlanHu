@@ -10,6 +10,9 @@ Recent McGill University graduate in Statistics and Computer Science with a stro
 
 **Familiar:** NoSQL/MongoDB, GCP/BigQuery, AWS, Snowflake, Power BI
 
+## Professional Experience
+**Data Engineer/Jr Technical Trainer, Jarvis Consulting Group (Nov 2025 - Present)**: Engineered backend services and data pipelines as part of Jarvis’ software development and data engineering initiatives, working extensively in Linux, Python, and Azure Databricks environments. Implemented Java-based applications using clean architecture principles, interfaces, and unit testing, and automated system data collection and analysis through Bash scripting and PostgreSQL. Designed and executed Python-based analytics workflows using Pandas and NumPy to support business and operational insights. Deployed and managed applications using Docker, version-controlled code with Git, and produced clear technical documentation to support maintainability and knowledge transfer. Additionally, assisted in the development of talent through the delivery of training modules and technical assessments.
+
 ## Jarvis Projects
 
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AlanHu](https://github.com/jarviscanada/jarvis_data_eng_AlanHu)
@@ -27,6 +30,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AlanHu](ht
 
 
 ## Highlighted Projects
+**Bullhorn Databricks CRM Dashboarding Pipeline**: Assisted in training and onboarding new team members through training modules and mock assessments. Maintained and enhanced end-to-end data pipelines using Databricks and PySpark, leveraging Medallion Architecture to transform and govern CRM data from ingestion through to analytics-ready Delta tables. Collaborated with stakeholders to ensure data quality, reliability, and timely delivery of business-critical reporting data.
+
 **E-commerce Data Platform Architecture** [[GitHub](https://github.com/ayewhosthat/IBM-Data-Engineering-Capstone)]: Developed a hybrid on-premise/cloud data platform for an e-commerce company, integrating MySQL for OLTP and MongoDB for NoSQL storage. Built automated ETL pipelines using Python and Apache Airflow to load data into a PostgreSQL staging warehouse and Hadoop for large-scale analytics. Applied PySpark and SparkML to support big data processing and sales forecasting within the analytics pipeline. Enabled business intelligence reporting and KPI dashboards through IBM Cognos Analytics to support data-driven decision-making.
 
 **Urban Mobility Analytics** [[GitHub](https://github.com/ayewhosthat/Toronto-City-Bike-Automated-Pipeline)]: Orchestrated an end-to-end urban mobility data pipeline in Azure Databricks, ingesting CityBikes API JSON data into bronze, silver, and gold Delta tables using SQL, PySpark, and streaming tables. Developed interactive Streamlit dashboards with Altair and Plotly to analyze station activity, hourly utilization, and cumulative trends. Automated daily PDF report generation and email distribution, optimizing Spark and Pandas transformations to support scalable, production-ready analytics and timely stakeholder insights.
