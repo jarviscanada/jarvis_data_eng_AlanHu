@@ -1,8 +1,39 @@
-# Jarvis Data Engineering Training
-1. [Linux Cluster Monitoring Agent (Linux and SQL)](./linux_sql) In-progress
-2. [Core Java Apps](./core_java) In-progress
-3. [Python Data Analytics](./python_data_analytics) In-progress
-4. [Spring Boot Trading REST API](./springboot) In-progress
-5. [Javascript Front End](./javascript) In-progress
-6. [Cloud/DevOps](./cloud_devops) In-progress
+# Alan Hu . Jarvis Consulting
+
+Recent McGill University graduate in Statistics and Computer Science with a strong foundation in data engineering, analytics, and software development. Certified in IBM Data Engineering and Snowflake Data Engineering, with hands-on exposure to designing and supporting scalable, end-to-end data pipelines using modern cloud and data stack technologies. Highly motivated to continuously learn and adopt emerging tools that improve data reliability, performance, and business impact. Known for strong communication skills and a collaborative mindset, with a genuine enthusiasm for working directly with stakeholders to translate complex client requirements into practical, high-quality technical solutions. Well-suited for technical consulting environments that demand both engineering rigor and client-facing excellence.
+
+## Skills
+
+**Proficient:** Linux/Bash, RDBMS/SQL, Agile/Scrum, Git, Python (Pandas, Sci-kit), ETL Pipelines
+
+**Competent:** Java, Databricks, Maven, Docker, Apache Spark/PySpark, Apache Airflow
+
+**Familiar:** NoSQL/MongoDB, GCP/BigQuery, AWS, Snowflake, Power BI
+
+## Professional Experience
+**Data Engineer/Jr Technical Trainer, Jarvis Consulting Group (Nov 2025 - Present)**: Engineered backend services and data pipelines as part of Jarvis’ software development and data engineering initiatives, working extensively in Linux, Python, and Azure Databricks environments. Implemented Java-based applications using clean architecture principles, interfaces, and unit testing, and automated system data collection and analysis through Bash scripting and PostgreSQL. Designed and executed Python-based analytics workflows using Pandas and NumPy to support business and operational insights. Deployed and managed applications using Docker, version-controlled code with Git, and produced clear technical documentation to support maintainability and knowledge transfer. Additionally, assisted in the development of talent through the delivery of training modules and technical assessments.
+
+## Jarvis Projects
+
+Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AlanHu](https://github.com/jarviscanada/jarvis_data_eng_AlanHu)
+
+
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlanHu/tree/master/linux_sql)]: Automated Linux cluster analysis (LCA) and node orchestration using Bash scripting and PostgreSQL to centralize and analyze cluster resource metrics. Containerized data collection and reporting workflows with Docker and managed version control using Git to ensure reproducibility and collaborative development. Enabled scalable SQL-based reporting on node usage trends to support data-driven capacity planning and resource allocation.
+
+**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlanHu/tree/master/core_java)]:
+
+  - Grep App: Built a Java-based grep application to recursively scan large directory structures, apply regex-based filtering, and persist matched results to disk with efficient I/O handling. Implemented modular, interface-driven design with robust exception handling, UTF-8 encoding, and stream-based file traversal using Java NIO. Managed dependencies and project lifecycle using Maven, and integrated structured logging with SLF4J and Log4j for observability.
+  - Twitter App: (Placeholder to have profile_app.sh run properly)
+  - JDBC App: (Placeholder to have profile_app.sh run properly)
+
+**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AlanHu/tree/master/python_data_analytics)]: Spearheaded a Python-based data analysis PoC for a retail gift shop to diagnose stagnant revenue performance. Used Pandas, NumPy, Jupyter Notebook, and SQL to perform exploratory analysis, feature engineering, customer segmentation, data visualization and trend analysis, delivering targeted recommendations aligned with the shop's customer base to drive higher engagement and incremental sales.
+
+
+## Highlighted Projects
+**Bullhorn Databricks CRM Dashboarding Pipeline**: Assisted in training and onboarding new team members through training modules and mock assessments. Maintained and enhanced end-to-end data pipelines using Databricks and PySpark, leveraging Medallion Architecture to transform and govern CRM data from ingestion through to analytics-ready Delta tables. Collaborated with stakeholders to ensure data quality, reliability, and timely delivery of business-critical reporting data.
+
+**E-commerce Data Platform Architecture** [[GitHub](https://github.com/ayewhosthat/IBM-Data-Engineering-Capstone)]: Developed a hybrid on-premise/cloud data platform for an e-commerce company, integrating MySQL for OLTP and MongoDB for NoSQL storage. Built automated ETL pipelines using Python and Apache Airflow to load data into a PostgreSQL staging warehouse and Hadoop for large-scale analytics. Applied PySpark and SparkML to support big data processing and sales forecasting within the analytics pipeline. Enabled business intelligence reporting and KPI dashboards through IBM Cognos Analytics to support data-driven decision-making.
+
+**Urban Mobility Analytics** [[GitHub](https://github.com/ayewhosthat/Toronto-City-Bike-Automated-Pipeline)]: Orchestrated an end-to-end urban mobility data pipeline in Azure Databricks, ingesting CityBikes API JSON data into bronze, silver, and gold Delta tables using SQL, PySpark, and streaming tables. Developed interactive Streamlit dashboards with Altair and Plotly to analyze station activity, hourly utilization, and cumulative trends. Automated daily PDF report generation and email distribution, optimizing Spark and Pandas transformations to support scalable, production-ready analytics and timely stakeholder insights.
+
 
