@@ -30,7 +30,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AlanHu](ht
 
 
 ## Highlighted Projects
-**Bullhorn Databricks CRM Dashboarding Pipeline**: Assisted in training and onboarding new team members through training modules and mock assessments. Maintained and enhanced end-to-end data pipelines using Databricks and PySpark, leveraging Medallion Architecture to transform and govern CRM data from ingestion through to analytics-ready Delta tables. Collaborated with stakeholders to ensure data quality, reliability, and timely delivery of business-critical reporting data.
+**Bullhorn Databricks CRM Dashboarding Pipeline**: Maintained and enhanced end-to-end data pipelines using Databricks and PySpark, leveraging Medallion Architecture to transform and govern CRM data from ingestion through to analytics-ready Delta tables. Collaborated with stakeholders to ensure data quality, reliability, and timely delivery of business-critical reporting data.
 
 **E-commerce Data Platform Architecture** [[GitHub](https://github.com/ayewhosthat/IBM-Data-Engineering-Capstone)]: Developed a hybrid on-premise/cloud data platform for an e-commerce company, integrating MySQL for OLTP and MongoDB for NoSQL storage. Built automated ETL pipelines using Python and Apache Airflow to load data into a PostgreSQL staging warehouse and Hadoop for large-scale analytics. Applied PySpark and SparkML to support big data processing and sales forecasting within the analytics pipeline. Enabled business intelligence reporting and KPI dashboards through IBM Cognos Analytics to support data-driven decision-making.
 
