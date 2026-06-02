@@ -11,7 +11,7 @@ Recent McGill University graduate in Statistics and Computer Science with a stro
 **Familiar:** NoSQL/MongoDB, GCP/BigQuery, AWS, Snowflake, Power BI
 
 ## Professional Experience
-**Data Engineer/Jr Technical Trainer, Jarvis Consulting Group (Nov 2025 - Present)**: Engineered backend services and data pipelines as part of Jarvis’ software development and data engineering initiatives, working extensively in Linux, Python, and Azure Databricks environments. Implemented Java-based applications using clean architecture principles, interfaces, and unit testing, and automated system data collection and analysis through Bash scripting and PostgreSQL. Designed and executed Python-based analytics workflows using Pandas and NumPy to support business and operational insights. Deployed and managed applications using Docker, version-controlled code with Git, and produced clear technical documentation to support maintainability and knowledge transfer. Additionally, assisted in the development of talent through the delivery of training modules and technical assessments.
+**Data Engineer/Jr Technical Trainer, Jarvis Consulting Group (Nov 2025 - Present)**: Engineered backend services and data pipelines using Linux, Python, Azure Databricks, and PostgreSQL, supporting software development and data engineering initiatives. Developed Java applications following clean architecture principles, implemented unit tests, and automated system data collection and analysis through Bash scripting. Built analytics workflows with Pandas and NumPy, and deployed applications using Docker while managing code through Git and maintaining technical documentation. Assisted in trainee development by delivering technical training modules and assessments.
 
 ## Jarvis Projects
 
