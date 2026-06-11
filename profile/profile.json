@@ -11,14 +11,13 @@
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_AlanHu",
   "highlighted_projects": [
     {
+      "description": "Maintained and enhanced end-to-end data pipelines using Databricks and Python/Spark, leveraging Medallion Architecture to transform and govern CRM data from ingestion through to dashboard-ready tables. Collaborated with stakeholders to ensure data quality, reliability, and timely delivery of business-critical reporting data.",
+      "name": "Databricks Bullhorn CRM Pipeline"
+    },
+    {
       "description": "Developed a hybrid on-premise/cloud data platform for an e-commerce company, integrating MySQL for OLTP and MongoDB for NoSQL storage. Built automated ETL pipelines using Python and Apache Airflow to load data into a PostgreSQL staging warehouse and Hadoop for large-scale analytics. Applied PySpark and SparkML to support big data processing and sales forecasting within the analytics pipeline. Enabled business intelligence reporting and KPI dashboards through IBM Cognos Analytics to support data-driven decision-making.",
       "git_url": "https://github.com/ayewhosthat/IBM-Data-Engineering-Capstone",
       "name": "E-commerce Data Platform Architecture"
-    },
-    {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": null,
-      "name": "Machine Learning"
     }
   ],
   "jarvis_projects": [
@@ -65,9 +64,9 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Engineered backend services and data pipelines as part of Jarvis' software development and data engineering initiatives, working extensively in Linux environments with Java and Python. Implemented Java-based applications using clean architecture principles, interfaces, and unit testing, and automated system data collection and analysis through Bash scripting and PostgreSQL. Designed and executed Python-based analytics workflows using Pandas and NumPy to support business and operational insights. Deployed and managed applications using Docker, version-controlled code with Git, and produced clear technical documentation to support maintainability and knowledge transfer.",
+      "description": "Engineered and maintained end-to-end data solutions across software development and data engineering initiatives, leveraging Databricks, PySpark, Delta Live Tables (DLT), and Medallion Architecture to build scalable ETL pipelines and transform CRM and operational data into analytics-ready datasets. Developed backend applications and automation tools using Java, Python, Bash, PostgreSQL, Docker, and Git, while supporting trainee development through the delivery and enhancement of technical training modules, mentorship, and candidate assessments.",
       "duration": "Nov 2025 - Present",
-      "title": "Software Developer/Data Engineer"
+      "title": "Data Engineer/Jr Technical Instructor"
     }
   ],
   "skills": {
