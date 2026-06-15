@@ -5,7 +5,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_AlanHu
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: Recent McGill University graduate in Statistics and Computer Science with a strong foundation in data engineering, analytics, and software development. Certified in IBM Data Engineering and Snowflake Data Engineering, with hands-on exposure to designing and supporting scalable, end-to-end data pipelines using modern cloud and data stack technologies. Highly motivated to continuously learn and adopt emerging tools that improve data reliability, performance, and business impact. Known for strong communication skills and a collaborative mindset, with a genuine enthusiasm for working directly with stakeholders to translate complex client requirements into practical, high-quality technical solutions. Well-suited for technical consulting environments that demand both engineering rigor and client-facing excellence. 
+summary: Recent McGill University graduate in Statistics and Computer Science with a strong foundation in data engineering, analytics, software development, and problem-solving. Certified in IBM Data Engineering and Snowflake Data Engineering, with hands-on experience building and supporting scalable end-to-end data pipelines using Databricks, PySpark, Delta Live Tables (DLT), SQL, Python, Azure, and Medallion Architecture. Highly motivated to continuously learn and adopt emerging technologies that improve data reliability, performance, and business impact. Known for strong communication skills, analytical thinking, and a collaborative mindset, with a genuine enthusiasm for working directly with stakeholders to translate complex business requirements into practical, high-quality technical solutions. Well-suited for technical consulting and data engineering environments that demand both engineering rigor and client-facing excellence.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -43,8 +43,8 @@ jarvis_projects:
   - name: "Core Java Apps"
     git_url: "/core_java"
     description:
-      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      - "Twitter App: Placeholder to allow profile_app.sh to work."
+      - "JDBC App: Placeholder to allow profile_app.sh to work."
       - "Grep App: Built a Java-based grep application to recursively scan large directory structures, apply regex-based filtering, and persist matched results to disk with efficient I/O handling. Implemented modular, interface-driven design with robust exception handling, UTF-8 encoding, and stream-based file traversal using Java NIO. Managed dependencies and project lifecycle using Maven, and integrated structured logging with SLF4J and Log4j for observability."
 #  - name: "Springboot App"
 #    git_url: "/springboot"
@@ -67,7 +67,7 @@ jarvis_projects:
 highlighted_projects:
     #project name
   - name: "Databricks Bullhorn CRM Pipeline"
-    description: "Maintained and enhanced end-to-end data pipelines using Databricks and Python/Spark, leveraging Medallion Architecture to transform and govern CRM data from ingestion through to dashboard-ready tables. Collaborated with stakeholders to ensure data quality, reliability, and timely delivery of business-critical reporting data."
+    description: "Maintained and enhanced enterprise ETL pipelines in Databricks using PySpark, Delta Live Tables (DLT), and Medallion Architecture (Bronze, Silver, Gold) to ingest, transform, and curate CRM data for downstream reporting and analytics. Developed REST API-based ingestion workflows using token authentication, orchestrated tier-specific pipelines through centralized Databricks Jobs, and implemented testing pipelines and validation checks to ensure data quality, code reliability, and production readiness."
   - name: "E-commerce Data Platform Architecture"
     #URL is optional
     git_url: "https://github.com/ayewhosthat/IBM-Data-Engineering-Capstone"
