@@ -8,7 +8,7 @@
       "school_name": "McGill University"
     }
   ],
-  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_AlanHu",
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_AlanHu/",
   "highlighted_projects": [
     {
       "description": "Maintained and enhanced enterprise ETL pipelines in Databricks using PySpark, Delta Live Tables, and Medallion Architecture (Bronze, Silver, Gold) to ingest, transform, and curate CRM data for downstream reporting and analytics. Developed REST API-based ingestion workflows using token authentication, orchestrated tier-specific pipelines through centralized Databricks Jobs, and implemented testing pipelines and validation checks to ensure data quality, code reliability, and production readiness.",
@@ -21,6 +21,11 @@
     }
   ],
   "jarvis_projects": [
+    {
+      "description": "Built a predictive credit risk modeling pipeline to identify high-risk loan applicants and reduce potential defaults using Python and Scikit-learn. Implemented automated preprocessing with feature engineering, missing-value handling, encoding, and scaling, followed by comparative evaluation of multiple classification algorithms. Optimized model performance through hyperparameter tuning, cross-validation, and imbalance handling techniques, while leveraging SHAP-based explainability to analyze feature contributions and improve model transparency.",
+      "git_url": "/machine_learning",
+      "name": "Credit Risk Prediction"
+    },
     {
       "description": "Automated Linux cluster analysis (LCA) and node orchestration using Bash scripting and PostgreSQL to centralize and analyze cluster resource metrics. Containerized data collection and reporting workflows with Docker and managed version control using Git to ensure reproducibility and collaborative development. Enabled scalable SQL-based reporting on node usage trends to support data-driven capacity planning and resource allocation.",
       "git_url": "/linux_sql",
@@ -46,17 +51,14 @@
     {
       "bullets": [
         "Google Advanced Data Analytics Certificate (July 2025)",
-        "Microsoft Power BI Data Analyst Specialization (August 2025)",
-        "Google Business Intelligence (August 2025)",
-        "IBM Data Engineering Certificate (October 2025)",
-        "Data Engineering with Snowflake Certificate (October 2025)"
+        "IBM Data Engineering Certificate (October 2025)"
       ],
       "title": "Certificates"
     },
     {
       "bullets": [
         "Experience with tutoring and swim instructing",
-        "Passion for video editing"
+        "Passion for video editing and table tennis"
       ],
       "title": "Activities/Hobbies"
     }
@@ -64,13 +66,14 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Engineered and maintained end-to-end data solutions across software development and data engineering initiatives, leveraging Databricks, PySpark, Delta Live Tables, and Medallion Architecture to build scalable ETL pipelines and transform CRM and operational data into analytics-ready datasets. Developed backend applications and automation tools using Java, Python, Bash, PostgreSQL, Docker, and Git, while supporting trainee development through the delivery and enhancement of technical training modules, mentorship, and candidate assessments.",
+      "description": "Developed machine learning and data engineering solutions using Python, Pandas, NumPy, and Azure Databricks, building scalable data pipelines and analytics workflows to support business insights. Designed and implemented ML workflows including data preprocessing, feature engineering, model evaluation, and automated analysis while leveraging Linux, PostgreSQL, and cloud-based environments. Applied software engineering practices including clean architecture, unit testing, Docker-based deployment, Git version control, and technical documentation to improve maintainability and reproducibility. Supported technical training initiatives by delivering instructional modules, developing assessments, and mentoring junior developers through engineering and machine learning concepts.",
       "duration": "Nov 2025 - Present",
       "title": "Data Engineer/Jr Technical Instructor"
     }
   ],
   "skills": {
     "competent": [
+      "ML concepts",
       "Java",
       "Databricks",
       "Maven",
@@ -94,5 +97,5 @@
       "ETL Pipelines"
     ]
   },
-  "summary": "Recent McGill University graduate in Statistics and Computer Science with a strong foundation in data engineering, analytics, software development, and problem-solving. Certified in IBM Data Engineering and Snowflake Data Engineering, with hands-on experience building and supporting scalable end-to-end data pipelines using Databricks, PySpark, Delta Live Tables, SQL, Python, Azure, and Medallion Architecture. Highly motivated to continuously learn and adopt emerging technologies that improve data reliability, performance, and business impact. Known for strong communication skills, analytical thinking, and a collaborative mindset, with a genuine enthusiasm for working directly with stakeholders to translate complex business requirements into practical, high-quality technical solutions. Well-suited for technical consulting and data engineering environments that demand both engineering rigor and client-facing excellence."
+  "summary": "Recent McGill University graduate in Statistics and Computer Science with experience in machine learning, data engineering, analytics, and software development. Skilled in building end-to-end ML and data pipelines using Python, PySpark, SQL, Databricks, Azure, and modern data architectures. Experienced in developing data-driven solutions through model development, feature engineering, and scalable data workflows, with a strong foundation in statistical analysis and software engineering practices. Looking to solve complex problems and deliver impactful solutions through strong technical communication and collaboration."
 }
