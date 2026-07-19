@@ -11,7 +11,9 @@ I use Pandas to store the data in a structured format, and the Python NumPy libr
 In the [first notebook](notebooks/01_eda.ipynb), my focus is to explore the data, and uncover trends, distributions, statistics (what percentage of the data is missing in each column?), and correlation.
 
 ### Preprocessing
-In the [second notebook](notebooks/02_preprocessing.ipynb), I deal with sentinel values; values that are a stand-in and have a certain meaning, but may not jump out when first observing the data. I also remove features that have an excessive amount of missing values - these features contribute little to the prediction and only serve to add noise. Additionally, I also imputed features with a small percentage of missing values (<5\%) with the median (numerical features, immune to outliers pulling mean either up or down), or median (categorical features).
+In the [second notebook](notebooks/02_preprocessing.ipynb), I deal with sentinel values; values that are a stand-in and have a certain meaning, but may not jump out when first observing the data. I also remove features that have an excessive amount of missing values - these features contribute little to the prediction and only serve to add noise. Additionally, I also imputed features with a small percentage of missing values (<5\%) with the median (numerical features, immune to outliers pulling mean either up or down), or median (categorical features). 
+
+Upon closer inspection, due to a typing error, I mistakingly and aggressively dropped rows that contained missing values in the features that were listed as > 40\%. The best practice would have been to drop the features entirely, this will be noted going forward.
 
 ### Feature Implementation + Unsupervised Applicant Clustering
 In the [third notebook](notebooks/03_feature_engineering.ipynb), I get into the nitty-gritty work: crafting new features to enrich the data and to provide improved signal to classifiers. For example, I utilized the supplementary bureau dataset (which included credit information provided by various other institutions) to compute aggregated features for each applicant. This served to engineer features that were not originally in the dataset. Think about it as using domain knowledge to inject signal into the dataset. I also perform unsupervised learning in the form of clustering; by segmenting applicants into groups, I could profile the applicants to try and gain some insight into what kind of customer they are when it comes to paying back credit.
@@ -21,6 +23,9 @@ In the [fourth notebook](notebooks/04_modeling.ipynb), I run the preprocessed da
 
 ### Model Validation + Explainability
 In the [fifth notebook](notebooks/05_explainability.ipynb), I took the champion model from the previous step and scrutinize it; is performance consistent and stable across cross-validation folds? Is there a lot of variance/deviation between for results across folds? I also use SHAP to extract the most important features when it comes to classifying credit default.
+
+### Full End-to-End Pipeline
+In the [sixth notebook](notebooks/06_regularization.ipynb), I package everything into a portable sklearn pipeline that can be downloaded and run as is. No additional running of scripts, feed in a row to predict, and the pipeline outputs a prediction. This is done with the use of custom transformers, which capture the logic from the preprocessing and feature engineering notebooks into "blocks" that are chained in sequence to transform raw inputted data into data ready to be used for model training.
 
 ## Limitations/Next Steps
 I see two glaring improvements/issues with the project as it currently stands:
